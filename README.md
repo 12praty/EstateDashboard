@@ -1,48 +1,54 @@
-# Nivaas: Real Estate Dashboard Application
+## EstateFlow: Emphasizing smooth workflows for property management.
+<img width="1280" alt="Screenshot 2025-01-19 at 1 02 40 AM" src="https://github.com/user-attachments/assets/bacfa42b-d14b-4f2e-a211-fe813152a585" />
 
-Nivaas is a feature-rich, fully functional full-stack MERN (MongoDB, Express.js, React.js, Node.js) dashboard application tailored for the real estate domain. With comprehensive CRUD functionalities, authentication, advanced data handling, and an elegant user interface, Nivaas empowers real estate professionals to efficiently manage and showcase property listings.
+## Overview
 
-### [Demo](https://nivaas.vercel.app/)
+Nivaas is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application designed for the real estate domain. It features an elegant, user-friendly dashboard to streamline property management while integrating modern technologies for performance and scalability.
 
-## Features
-
-- **Complete CRUD Functionalities:** Seamlessly manage property listings with Create, Read, Update, and Delete operations.
-
-- **Authentication:** Secure your data with user authentication, ensuring authorized access and data privacy.
-
-- **Pagination, Sorting, and Filtering:** Efficiently navigate through property listings using pagination, sort data for better organization, and apply filters for targeted results.
-
-- **Pixel-Perfect Design with Material UI:** Enjoy a visually appealing and user-friendly experience with a pixel-perfect design built using Material UI components.
-
-- **Built Using TypeScript:** Leverage the benefits of TypeScript for enhanced code quality, type safety, and improved development.
-
-- **Google Auth for Quick and Easy Login and Registration:** Provide users with the convenience of quick registration and login using Google authentication.
-
-- **Optimized Images and Cloud Storage using Cloudinary:** Optimize image rendering and storage efficiency through integration with Cloudinary's cloud-based media management platform.
-
-- **Built Using Refine for Quick React-based CRUD Development:** Utilize Refine, a powerful library for rapid development of React-based CRUD applications, enhancing productivity and code maintainability.
+## Key Features
+•⁠  ⁠Complete CRUD Functionalities: Create, view, update, and delete property listings effortlessly.
+•⁠  ⁠Authentication with Google Auth: Quick and secure login/registration using Google OAuth.
+•⁠  ⁠Pagination, Sorting, and Filtering: Efficiently organize and access property listings.
+•⁠  ⁠Material UI Design: Pixel-perfect, responsive interface for seamless navigation.
+•⁠  ⁠Cloudinary Integration: Optimized image storage and rendering in the cloud.
+•⁠  ⁠TypeScript-Enhanced Codebase: Improved code quality and maintainability.
+•⁠  ⁠Refine Framework: Rapid development and simplified React-based CRUD operations.
 
 ## Tech Stack
+•⁠  ⁠Frontend: React.js, Material UI, TypeScript, Refine
+•⁠  ⁠Backend: Node.js, Express.js
+•⁠  ⁠Database: MongoDB (via Mongoose ODM)
+•⁠  ⁠Authentication: Google OAuth
+•⁠  ⁠Image Management: Cloudinary
+•⁠  ⁠API Communication: Axios
 
-- Frontend: Reactjs, Material UI, Typescript, Refine
-- Backend: Node.js, Express
-- Database: Mongoose(ODM), MongoDB
-- Authentication: Google Auth
-- Image Optimization and Storage: Cloudinary
-- API Communication: Axios
+## Getting Started
+To run the project locally,follow these steps:
 
----
+1.⁠ ⁠Navigate to the Project Directory
+cd EstateFlow
 
-Experience the power of Nivaas: Elevate your real estate management with a complete MERN stack solution. Simplify CRUD operations, ensure data security, and enjoy an intuitive interface that streamlines your workflow.
+2.⁠ ⁠Install Dependencies
+•⁠  ⁠For the Client:
+cd client
+npm install
+•⁠  ⁠For the Server:
+Open a new terminal or return to the root directory:
+cd server
+npm install
 
----
+3.⁠ ⁠Start the Development Servers
 
-## Screenshots
+•⁠  ⁠Start the Backend (Server):
+In the server directory:
 
-![nivaas vercel app_ (1)](https://user-images.githubusercontent.com/103204431/220138271-c67266f2-aa3b-4a0a-8da0-0ad8e143c5ed.png)
+npm start
+Runs on: http://localhost:8080(default port for backend)
 
-![nivaas vercel app_ (2)](https://user-images.githubusercontent.com/103204431/220138282-05a7073a-4743-4617-8767-ed45f750d8fa.png)
+•⁠  ⁠Start the Frontend (Client):
+In the client directory:
 
-![nivaas vercel app_ (3)](https://user-images.githubusercontent.com/103204431/220138360-191f3789-ea0b-4d5c-b95c-6578677fd345.png)
+npm run dev
+Runs on: http://localhost:3000(default port for frontend)
 
-![nivaas vercel app_ (4)](https://user-images.githubusercontent.com/103204431/220138387-62040207-6639-420f-b195-513f680ce4d6.png)
+This setup launches both the backend and frontend for local development.
